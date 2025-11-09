@@ -6,10 +6,14 @@ Submitted by: **Carado** & **Tacuel**
 
 ## Number 1:
 
-- Using your preferred programming language, create a simple program that will do the following: - (10 points) Create a base/parent class called `Book` with class attributes like `title`, `author`, `ISBN`, and a method `getDetails()` that returns book information. - (20 points) Create two derived classes:
-  `PrintedBook` (with an additional attribute such as number of pages) - `EBook` (with attributes such as file format and file size) - Each derived class should override `getDetails()` to include its specific information.
+Using your preferred programming language, create a simple program that will do the following:
 
-- (20 points) Apply proper encapsulation (getter/setter methods, public/private modifiers)
+- (10 points) Create a base/parent class called `Book` with class attributes like `title`, `author`, `ISBN`, and a method `getDetails()` that returns book information.
+
+- (20 points) Create two derived classes:
+	- `PrintedBook` (with an additional attribute such as number of pages)
+	- `EBook` (with attributes such as file format and file)
+	- Each derived class should override `getDetails()` to include its specific information.
 
 - (20 points) Apply proper encapsulation (getter/setter methods, public/private modifiers)
 
