@@ -29,7 +29,7 @@ class Book:
 
     @property
     def isbn(self) -> str:
-        return self._author
+        return self._isbn
     @isbn.setter
     def isbn(self, new_isbn:str) -> None:
         self._isbn = new_isbn
