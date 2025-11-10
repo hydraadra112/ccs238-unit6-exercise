@@ -29,10 +29,14 @@ Converted the Python source code from Number 1 into **C#**.
 - Tested via `.NET SDK` using `dotnet run`.
 
 ### How to run:
+1. Open terminal, input:
 ```bash
 dotnet new console -n num2
 cd num2
-# Replace the auto-generated Program.cs with num_2.cs content
+```
+2. Replace auto-generated Program.cs with num_2.cs content
+3. Same terminal, input:
+```bash
 dotnet run
-
+```
 ![Number Two Console Output](./num_2_console.png)
