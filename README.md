@@ -20,3 +20,17 @@ Using your preferred programming language, create a simple program that will do 
 - Create an array containing 1 `Book`, 1 `PrintedBook`, and 1 `EBook`. Then create a loop that will call each instance’s `getDetails()` method. Attach a screenshot of the console output.
 
 ![Number One COnsole Output](./num_1_console.png)
+
+## Number 2: Using C#
+
+Converted the Python source code from Number 1 into **C#**.
+
+- Demonstrates inheritance, encapsulation, and method overriding.
+- Tested via `.NET SDK` using `dotnet run`.
+
+### How to run:
+```bash
+dotnet new console -n num2
+cd num2
+# Replace the auto-generated Program.cs with num_2.cs content
+dotnet run
