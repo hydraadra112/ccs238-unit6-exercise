@@ -19,7 +19,7 @@ Using your preferred programming language, create a simple program that will do 
 
 - Create an array containing 1 `Book`, 1 `PrintedBook`, and 1 `EBook`. Then create a loop that will call each instance’s `getDetails()` method. Attach a screenshot of the console output.
 
-![Number One COnsole Output](./num_1_console.png)
+![Number One Console Output](./num_1_console.png)
 
 ## Number 2: Using C#
 
@@ -34,3 +34,5 @@ dotnet new console -n num2
 cd num2
 # Replace the auto-generated Program.cs with num_2.cs content
 dotnet run
+
+![Number Two Console Output](./num_2_console.png)
